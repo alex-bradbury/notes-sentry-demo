@@ -36,8 +36,9 @@ jobs:
           -Pandroid.injected.signing.store.file=$GITHUB_WORKSPACE/app/release-keystore.jks \
           -Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD \
           -Pandroid.injected.signing.key.alias=$KEY_ALIAS \
-          -Pandroid.injected.signing.key.password=$KEY_PASSWORD
-    
+          -Pandroid.injected.signing.key.password=$KEY_PASSWORD\
+          -Dorg.gradle.jvmargs="-Xmx4g -XX:MaxMetaspaceSize=512m"
+
     - name: Upload to Firebase App Distribution
       uses: wzieba/Firebase-Distribution-Github-Action@v1
       with:
