@@ -17,3 +17,6 @@ release-keystore.jks
 
 # Firebase config
 service-account.json
+
+/app/release/app-release.aab
+/java_pid7864.hprof
