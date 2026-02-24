@@ -25,7 +25,7 @@ import javax.inject.Inject
 class MainActivity : ComponentActivity() {
     
     @Inject
-    lateinit var authRepository: AuthRepository:x
+    lateinit var authRepository: AuthRepository
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -16,5 +16,4 @@ local.properties
 release-keystore.jks
 
 # Firebase config
-google-services.json
 service-account.json

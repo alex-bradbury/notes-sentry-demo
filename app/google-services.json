@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031553522667",
+    "project_id": "notes-sentry-demo",
+    "storage_bucket": "notes-sentry-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031553522667:android:bab9539184efbebf1917ae",
+        "android_client_info": {
+          "package_name": "uk.co.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSuT_JrwPVTX9qK1Gypd0AYZTflv5bqIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
