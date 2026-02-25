@@ -45,5 +45,5 @@ jobs:
         appId: ${{ secrets.FIREBASE_APP_ID }}
         token: ${{ secrets.FIREBASE_TOKEN }}
         file: app/build/outputs/apk/release/app-release.apk
-        groups: testers
+        groups: alex
         releaseNotes: "Build from commit ${{ github.sha }}"
